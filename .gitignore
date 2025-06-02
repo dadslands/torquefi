@@ -1,0 +1,35 @@
+.dep*
+build/
+build_kinetis/
+pinouts
+workarea
+bundle_name.txt
+out/
+logs/
+blbuild/
+Debug_EMS/
+Release_EMS/
+Debug/
+.settings/
+*_ram_report.txt
+doxygen/
+/.idea
+workspace.xml
+/console
+.vscode/.*
+*.cmp
+*.net
+err.txt
+log.txt
+*.rusefi_binary
+*.kicad_prl
+.*-sentinel
+
+# Eclipse
+.metadata/
+
+# rusEFI simulator makes logs, ignore those
+rusefi_simulator_log.mlg
+
+# bundle
+artifacts
