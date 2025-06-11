@@ -1,0 +1,21 @@
+1.  **Project Name:** rusEFI
+2.  **Primary Goal:** Develop and maintain a GPL open-source Engine Control Unit (ECU).
+3.  **Core Hardware Target:** STM32 microcontrollers.
+4.  **Main Software Components:**
+    *   **Firmware:** The core ECU software (source code intended to be in C/C++, inferred from "gcc_version_check.c" and common STM32 development practices, but content not directly verifiable due to submodule access issues).
+    *   **rusEFI Console:** Native tuning software, likely Java-based (from the directory name `java_console`).
+    *   **Simulator:** A software version of the firmware for testing and development without physical hardware, available for Win32 and POSIX.
+    *   **Unit Tests:** For testing firmware components.
+    *   **Miscellaneous Tools:** Java-based development utilities.
+5.  **Hardware Aspect:** Open-source hardware designs (KiCAD files for older PCBs).
+6.  **Key Technologies (Inferred/Stated):**
+    *   Embedded C/C++ for firmware (inferred).
+    *   Java for tuning software and tools.
+    *   KiCAD for hardware design.
+    *   Git for version control (with submodules).
+7.  **Development Process & Community:**
+    *   Active development (indicated by commit frequency).
+    *   Community support through a forum, documentation (Wiki, Doxygen), and social media.
+    *   Emphasis on open-source principles (GPL license).
+8.  **Build System:** Details are on the forum; uses GCC (specific version recommended).
+9.  **Distribution:** Provides pre-built binaries via a build server.

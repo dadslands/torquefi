@@ -1,0 +1,37 @@
+Key Areas for Comparison: rusefi/rusefi vs. dadslands/epictorque
+
+1.  **Origin and Relationship:**
+    *   `rusefi/rusefi`: The established, original open-source ECU project.
+    *   `dadslands/epictorque`: Identified as a fork or very close derivative of `rusefi/rusefi`.
+
+2.  **Stated Goals & Specialization:**
+    *   `rusefi/rusefi`: Aims to be a general-purpose, comprehensive, and highly configurable open-source ECU platform for a wide range of users and engine types.
+    *   `dadslands/epictorque`: Specifically states a focus on "Torque based efi," indicating a specialization or experimental development in torque-centric engine control algorithms, as opposed to rusefi's broader goals.
+
+3.  **Scope & Completeness:**
+    *   `rusefi/rusefi`: Broad scope, providing a complete ecosystem (firmware, tuning software, simulator, hardware designs, documentation).
+    *   `dadslands/epictorque`: While inheriting the full rusefi structure, its unique scope is likely narrower, concentrating on the implementation of its torque-based specialization. The completeness of this specific feature set is presumed to be in early stages.
+
+4.  **Technology Stack:**
+    *   `rusefi/rusefi`: STM32 microcontrollers, firmware primarily in C/C++, Java for tuning console and tools, KiCAD for hardware designs, CMake/GCC build system.
+    *   `dadslands/epictorque`: Inherits the identical technology stack from rusefi. No divergence is apparent from the available information. Specialized code is likely within its "epictorque" C/C++ folder.
+
+5.  **Development Activity & Maturity:**
+    *   `rusefi/rusefi`: Highly mature and actively developed project with a large international community, frequent commits, and a long history.
+    *   `dadslands/epictorque`: Very low development activity (e.g., 2 commits reported), indicating it is a nascent, possibly individual or experimental, fork with limited maturity in its unique aspects.
+
+6.  **Community & Support:**
+    *   `rusefi/rusefi`: Extensive and active community providing support through forums, GitHub, and comprehensive, dedicated documentation resources (wiki, Doxygen).
+    *   `dadslands/epictorque`: No independent community or dedicated support channels observed. The forked README still points to rusefi's community resources.
+
+7.  **Documentation & Branding:**
+    *   `rusefi/rusefi`: Strong, established "rusEFI" branding, dedicated website (rusefi.com), and extensive project-specific documentation.
+    *   `dadslands/epictorque`: Lacks distinct branding. Its README is largely a copy of rusefi's, including rusefi branding and links, indicating minimal effort in creating separate documentation or identity for the fork.
+
+8.  **Hardware Support:**
+    *   `rusefi/rusefi`: Supports a variety of STM32-based ECU hardware, with several open-source board designs and units available from community vendors.
+    *   `dadslands/epictorque`: Assumed to rely on the same hardware supported by rusefi due to its nature as a fork. No information suggests any specific hardware modifications or unique hardware targets for its torque-based specialization.
+
+9.  **License:**
+    *   `rusefi/rusefi`: Licensed under the GNU General Public License (GPL).
+    *   `dadslands/epictorque`: Also licensed under GPL, inherited from rusefi, and confirmed by the presence of `license.txt` and statements in its README.
