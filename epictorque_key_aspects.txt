@@ -1,0 +1,12 @@
+- Repository Name: dadslands/epictorque
+- Relationship to rusefi: Appears to be a direct fork or very close derivative of rusefi. The README.md is almost identical to rusefi's, including branding, project descriptions, and links pointing to rusefi's official resources (forum, wiki, build server, shop). The "Cloning" section in the README even retains the rusefi git clone URL.
+- Stated Purpose/Difference: The repository description states, "Torque based efi split from epic efi efi." This suggests its primary differentiation is a specialization in torque-based EFI control strategies, potentially diverging from a project named "epic efi" (which itself might be related to rusefi).
+- Directory Structure: The top-level directory structure (firmware, hardware, java_console, simulator, etc.) is very similar to rusefi's typical layout. A folder named "epictorque" is present, likely containing the specialized code.
+- Technology Stack: Primarily C (dominant for firmware), with C++, Java (for console/tools), Assembly, and Makefile. Uses CMake as a build system (CMakeLists.txt present). This stack is consistent with rusefi.
+- Community/Activity: Very low. As of the analysis, it has 0 stars and 0 forks, with only 2 commits listed. This indicates significantly less community engagement and development activity compared to the main rusefi project.
+- License: A `license.txt` file is present. Given its direct derivation from rusefi and the "GPL open-source ECU" statement in its README, the license is almost certainly GPL, inherited from rusefi.
+- Notable observations:
+    - The README.md is largely a copy of rusefi's, with rusefi branding and numerous links still pointing to the original rusefi project's resources.
+    - The stated purpose of "torque based efi" is the main clue to its unique focus.
+    - The low commit count and lack of community engagement suggest it might be a personal fork, a new experimental branch, or not yet actively promoted.
+    - The name "epic efi" mentioned in the description might indicate another related project or a previous iteration.
